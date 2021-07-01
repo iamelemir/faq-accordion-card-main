@@ -1,6 +1,6 @@
 var muestra = 1;
 
-
+// all functions about 'onclick' event 
 function showResponseOne() {
   if (muestra == 1) {
     document.getElementById("response1").style.height = "10px";
