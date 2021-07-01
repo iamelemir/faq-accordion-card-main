@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Frontend Mentor | FAQ Accordion Card</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet">
+    <script src="JS/logic.js"></script>
+</head>
+
+<body>
+    <div class='container'>
+        <div class="card">
+
+            <div class='left'>
+                <img class="fondo" src="images/bg-pattern-desktop.svg" srcset="">
+                <img class="women" src="images/illustration-woman-online-desktop.svg" srcset="">
+                <img class="box" src="images/illustration-box-desktop.svg" srcset="">
+            </div>
+            <!-- question and answers -->
+            <div class='right'>
+
+                <h1 class="title">FAQ</h1>
+
+                <div class="arrow" id="quiestion1" onclick="showResponseOne()">
+                    <p>How many team members can i invite? </p>
+                    <img src="images/icon-arrow-down.svg" alt="">
+                </div>
+                <div id="response1"></div>
+                <hr>
+
+                <div class="arrow" id="quiestion2" onclick="showResponseTwo()">
+                    <p>What is the maximun file upload size?</p>
+                    <img src="images/icon-arrow-down.svg" alt="">
+                </div>
+                <div id="response2"></div>
+                <hr>
+
+                <div class="arrow" id="quiestion3" onclick="showResponseTree()">
+                    <p>How do I reset my password?</p>
+                    <img src="images/icon-arrow-down.svg" alt="">
+                </div>
+                <div id="response3"></div>
+                <hr>
+
+                <div class="arrow" id="quiestion4" onclick="showResponseFour()">
+                    <p>Can i cancel my suscription?</p>
+                    <img src="images/icon-arrow-down.svg" alt="">
+                </div>
+                <div id="response4"></div>
+                <hr>
+
+                <div class="arrow" id="quiestion5" onclick="showResponseFive()">
+                    <p>Do you provide additional suported?</p>
+                    <img src="images/icon-arrow-down.svg" alt="">
+
+                </div>
+                <div id="response5"></div>
+                <hr>
+            </div>
+        </div>
+        <!-- about css picture -->
+    </div>
+</body>
+
+</html>
